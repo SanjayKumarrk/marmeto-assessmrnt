@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Coding Assesment L2 boilerplate</title>
+  </head>
+
+  <body>
+    <main class="main">
+      <div class="product__container">
+        <div class="main__img--container">
+          <img src="./assets/img_1.jpeg" alt="main__img" class="main__img" />
+        </div>
+        <div class="img__group">
+          <img src="./assets/img_1.jpeg" alt="img_1" class="img" />
+          <img src="./assets/img_2.jpeg" alt="img_2" class="img" />
+          <img src="./assets/img_3.jpeg" alt="img_3" class="img" />
+          <img src="./assets/img_4.jpeg" alt="img_4" class="img" />
+        </div>
+      </div>
+      <div class="product__details--container">
+        <p class="product__vendor">Marmeto</p>
+        <h1 class="product__title">Embrace Sideboard</h1>
+        <div class="divider"></div>
+        <div class="price__container">
+          <div class="flex discounted__price--container">
+            <p class="discounted__price">$12999.00</p>
+            <p class="discount">35% Off</p>
+          </div>
+          <p class="original__price">$19999.00</p>
+        </div>
+        <section class="color__section">
+          <p>Choose a color</p>
+          <div class="flex color__container">
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+          </div>
+        </section>
+        <section class="size__section">
+          <p>Choose a size</p>
+          <form action="#">
+            <div class="flex radio__section">
+              <div class="radio">
+                <input
+                  type="radio"
+                  id="small"
+                  name="size"
+                  value="small"
+                  checked
+                />
+                <label for="small">Small</label>
+              </div>
+              <div class="radio">
+                <input type="radio" id="medium" name="size" value="medium" />
+                <label for="medium">Medium</label>
+              </div>
+              <div class="radio">
+                <input type="radio" id="large" name="size" value="large" />
+                <label for="large">Large</label>
+              </div>
+              <div class="radio">
+                <input
+                  type="radio"
+                  id="extra-large"
+                  name="size"
+                  value="extra-large"
+                />
+                <label for="extra-large">Extra Large</label>
+              </div>
+              <div class="radio">
+                <input type="radio" id="xxl" name="size" value="xxl" />
+                <label for="xxl">XXL</label>
+              </div>
+            </div>
+
+            <div class="flex form__second">
+              <div class="flex counter">
+                <div class="dec">-</div>
+                <div class="count">count</div>
+                <div class="inc">+</div>
+              </div>
+
+              <button class="cart__btn">Add to cart</button>
+            </div>
+          </form>
+        </section>
+        <section class="description__section">
+          <p class="description">
+            The Embrace Sideboard is a stylish wear. With a top cloth designed
+            to provide superior protection and look great, this storage solution
+            is both functional and attractive. It fits seamlessly into any home
+            decor, with clean lines and a timeless look. Crafted from premium
+            materials for a combination of style, durability, and reliability.
+          </p>
+        </section>
+      </div>
+    </main>
+    <script src="./script.js" defer></script>
+  </body>
+</html>
